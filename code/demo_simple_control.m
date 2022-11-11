@@ -20,7 +20,7 @@ arm_sim_model.setJointAngle('joint_1', desired_q(1));
 arm_sim_model.setJointAngle('joint_2', desired_q(2));
 arm_sim_model.step();
 
-data_len = 100;
+data_len = 200;
 reference_joint_angle = zeros(data_len, 2);
 actual_joint_angle = zeros(data_len, 2);
 
@@ -53,17 +53,17 @@ arm_sim_model.shutdownSimulation();
 % plot
 figure();
 subplot(2, 1, 1);
-plot(reference_joint_angle(:, 1), 'g');
+plot(reference_joint_angle(:, 1), 'r');
 hold on;
-plot(actual_joint_angle(:, 1), 'r--');
+plot(actual_joint_angle(:, 1), 'g--');
 hold off;
 title('hip angle');
 legend('reference', 'actual');
 
 subplot(2, 1, 2);
-plot(reference_joint_angle(:, 2), 'g');
+plot(reference_joint_angle(:, 2), 'r');
 hold on;
-plot(actual_joint_angle(:, 2), 'r--');
+plot(actual_joint_angle(:, 2), 'g--');
 hold off;
 title('knee angle');
 legend('reference', 'actual');
