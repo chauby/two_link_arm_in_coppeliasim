@@ -12,9 +12,9 @@ The demonstrated videos can be found as follows：
 
 1.The demo for the simple control of the robot arm, with two joints.
 
-<img src="video/two_link_demo_1.gif" alt="two_link_demo_1" style="zoom:150%;" />
+<img src="./video/two_link_demo_1.avi" alt="two_link_demo_1" style="zoom:150%;" />
 
-<img src="video/two_link_demo_2.gif" alt="two_link_demo_2" style="zoom:150%;" />
+<img src="./video/two_link_demo_2.gif" alt="two_link_demo_2" style="zoom:150%;" />
 
 
 
