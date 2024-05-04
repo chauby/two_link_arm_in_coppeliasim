@@ -8,18 +8,16 @@ There is a robot kinematics model for the two-link arm robot, pleas refer to the
 
 
 
-The demos can be found as follows：
+The demonstrated videos can be found as follows：
 
 1.The demo for the simple control of the robot arm, with two joints.
 
-![](./video/two_link_demo_1.gif)
+<img src="video/two_link_demo_1.gif" alt="two_link_demo_1" style="zoom:150%;" />
 
-
-
-![](./video/two_link_demo_2.gif)
+<img src="video/two_link_demo_2.gif" alt="two_link_demo_2" style="zoom:150%;" />
 
 
 
 2.The demo for the trajectory planning and control with some given via-points.
 
-![](./video/two_link_trajectory.gif)
+<img src="video/two_link_trajectory.gif" alt="two_link_trajectory" style="zoom:150%;" />
